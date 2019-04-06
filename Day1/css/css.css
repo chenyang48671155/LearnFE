@@ -1,0 +1,49 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, green 74%);    
+}
+
+#header {
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top:10px;
+    background-color: #0a410e;
+    font-family: "EB garamond", serif;
+}
+
+p {
+    font-size: 2em;
+    text-align: justify;
+    font-family: "ZCOOL Qingke HuangYou",cursive;
+}
+
+#txt {
+    font-family: "ZCOOL Qingke HuangYou",cursive;
+    text-align: right;
+    font-size:2em;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}
+
+.center {
+    text-align:center;
+}
+
+.content-para {
+    text-align: center;
+}

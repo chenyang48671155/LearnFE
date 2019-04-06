@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+    <form method="post" action="https://pizza.example.com/order" enctype="application/x-www-form-urlencoded">
+        <p><label>姓名： <input name="custname" required></label></p>
+        <p><label>电话:  <input type="tel" name="custtel" required></label></p>
+        <p><label>邮箱： <input type="email" name="custemail"></label></p>
+        <fieldset>
+            <legend>披萨大小</legend>
+            <label><input type="radio" name="size" value="small" required>小</label>
+            <label><input type="radio" name="size" value="medium" required>中</label>
+            <label><input type="radio" name="size" value="large" required>大</label>
+        </fieldset>
+        <fieldset>
+            <legend>披萨配料</legend>
+            <label><input type="checkbox" value="bacon">熏肉</label>
+            <label><input type="checkbox" value="cheese">奶酪</label>
+            <label><input type="checkbox" value="onion">洋葱</label>
+            <label><input type="checkbox" value="mushroom">蘑菇</label>    
+        </fieldset>
+        <p><label>配送时间：<input type="time" name="delivery" min="11:00" max="21:00" step="900"></label></p>
+        <p><button>提交订单</button></p>  
+    </form>
+</body>
+</html>
